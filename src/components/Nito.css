@@ -8,6 +8,8 @@
   align-items: center;
   background-color: #16161d;
   padding: 8px;
+  position: relative;
+  z-index: 10;
 }
 
 .nito-crespi__text {
@@ -18,4 +20,9 @@
 .nito-crespi__link {
   color: #2196f3;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.nito-crespi__link:hover {
+  text-decoration: underline;
 }
