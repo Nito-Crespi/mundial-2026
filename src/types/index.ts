@@ -23,6 +23,7 @@ export type Stage =
 
 export interface Team {
   name: string;
+  code: string;
   group?: Group;
 }
 
