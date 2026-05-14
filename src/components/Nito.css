@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap");
+
+.nito-crespi {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #16161d;
+  padding: 8px;
+}
+
+.nito-crespi__text {
+  color: #eeeeee;
+  margin: 0;
+}
+
+.nito-crespi__link {
+  color: #2196f3;
+  cursor: pointer;
+}
