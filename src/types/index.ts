@@ -36,6 +36,11 @@ export interface Stadium {
   lng: number;
 }
 
+export interface MatchResult {
+  homeGoals: number;
+  awayGoals: number;
+}
+
 export interface Match {
   id: number;
   date: string; // ISO date string e.g. "2026-06-11"
@@ -45,12 +50,8 @@ export interface Match {
   homeTeam: string;
   awayTeam: string;
   stadiumId: string;
+  result?: MatchResult;
   isPlaceholder?: boolean;
-}
-
-export interface MatchResult {
-  homeGoals: number;
-  awayGoals: number;
 }
 
 export interface GroupStanding {

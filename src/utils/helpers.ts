@@ -70,7 +70,7 @@ export function computeGroupStandings(
   );
 
   for (const match of groupMatches) {
-    const result = results[match.id];
+    const result = results[match.id] ?? match.result;
     if (!result) continue;
 
     const home = standings[match.homeTeam];

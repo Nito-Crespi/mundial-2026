@@ -33,7 +33,8 @@ export function MatchCard({ match, showDate = false }: Props) {
   const stadium = getStadium(match.stadiumId);
   const home = getTeam(match.homeTeam);
   const away = getTeam(match.awayTeam);
-  const result = useFixtureStore((s) => s.results[match.id]);
+  const savedResult = useFixtureStore((s) => s.results[match.id]);
+  const result = savedResult ?? match.result;
   const setResult = useFixtureStore((s) => s.setResult);
   const clearResult = useFixtureStore((s) => s.clearResult);
 

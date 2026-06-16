@@ -6,26 +6,26 @@ import type { Match } from '../types';
  */
 export const MATCHES: Match[] = [
   // ─── Matchday 1 ───
-  { id: 1, date: '2026-06-11', time: '15:00', stage: 'Fase de Grupos', group: 'A', homeTeam: 'México', awayTeam: 'Sudáfrica', stadiumId: 'mexico_city' },
-  { id: 2, date: '2026-06-11', time: '22:00', stage: 'Fase de Grupos', group: 'A', homeTeam: 'República de Corea', awayTeam: 'República Checa', stadiumId: 'guadalajara' },
+  { id: 1, date: '2026-06-11', time: '15:00', stage: 'Fase de Grupos', group: 'A', homeTeam: 'México', awayTeam: 'Sudáfrica', stadiumId: 'mexico_city', result: { homeGoals: 2, awayGoals: 0 } },
+  { id: 2, date: '2026-06-11', time: '22:00', stage: 'Fase de Grupos', group: 'A', homeTeam: 'República de Corea', awayTeam: 'República Checa', stadiumId: 'guadalajara', result: { homeGoals: 2, awayGoals: 1 } },
 
-  { id: 3, date: '2026-06-12', time: '15:00', stage: 'Fase de Grupos', group: 'B', homeTeam: 'Canadá', awayTeam: 'Bosnia y Herzegovina', stadiumId: 'toronto' },
-  { id: 4, date: '2026-06-12', time: '21:00', stage: 'Fase de Grupos', group: 'D', homeTeam: 'Estados Unidos', awayTeam: 'Paraguay', stadiumId: 'los_angeles' },
+  { id: 3, date: '2026-06-12', time: '15:00', stage: 'Fase de Grupos', group: 'B', homeTeam: 'Canadá', awayTeam: 'Bosnia y Herzegovina', stadiumId: 'toronto', result: { homeGoals: 1, awayGoals: 1 } },
+  { id: 4, date: '2026-06-12', time: '21:00', stage: 'Fase de Grupos', group: 'D', homeTeam: 'Estados Unidos', awayTeam: 'Paraguay', stadiumId: 'los_angeles', result: { homeGoals: 4, awayGoals: 1 } },
 
-  { id: 5, date: '2026-06-13', time: '15:00', stage: 'Fase de Grupos', group: 'B', homeTeam: 'Catar', awayTeam: 'Suiza', stadiumId: 'sf_bay' },
-  { id: 6, date: '2026-06-13', time: '18:00', stage: 'Fase de Grupos', group: 'C', homeTeam: 'Brasil', awayTeam: 'Marruecos', stadiumId: 'ny_nj' },
-  { id: 7, date: '2026-06-13', time: '21:00', stage: 'Fase de Grupos', group: 'C', homeTeam: 'Haití', awayTeam: 'Escocia', stadiumId: 'boston' },
-  { id: 8, date: '2026-06-13', time: '00:00', stage: 'Fase de Grupos', group: 'D', homeTeam: 'Australia', awayTeam: 'Turquía', stadiumId: 'vancouver' },
+  { id: 5, date: '2026-06-13', time: '15:00', stage: 'Fase de Grupos', group: 'B', homeTeam: 'Catar', awayTeam: 'Suiza', stadiumId: 'sf_bay', result: { homeGoals: 1, awayGoals: 1 } },
+  { id: 6, date: '2026-06-13', time: '18:00', stage: 'Fase de Grupos', group: 'C', homeTeam: 'Brasil', awayTeam: 'Marruecos', stadiumId: 'ny_nj', result: { homeGoals: 1, awayGoals: 1 } },
+  { id: 7, date: '2026-06-13', time: '21:00', stage: 'Fase de Grupos', group: 'C', homeTeam: 'Haití', awayTeam: 'Escocia', stadiumId: 'boston', result: { homeGoals: 0, awayGoals: 1 } },
+  { id: 8, date: '2026-06-13', time: '00:00', stage: 'Fase de Grupos', group: 'D', homeTeam: 'Australia', awayTeam: 'Turquía', stadiumId: 'vancouver', result: { homeGoals: 2, awayGoals: 0 } },
 
-  { id: 9, date: '2026-06-14', time: '13:00', stage: 'Fase de Grupos', group: 'E', homeTeam: 'Alemania', awayTeam: 'Curazao', stadiumId: 'houston' },
-  { id: 10, date: '2026-06-14', time: '16:00', stage: 'Fase de Grupos', group: 'F', homeTeam: 'Países Bajos', awayTeam: 'Japón', stadiumId: 'dallas' },
-  { id: 11, date: '2026-06-14', time: '19:00', stage: 'Fase de Grupos', group: 'E', homeTeam: 'Costa de Marfil', awayTeam: 'Ecuador', stadiumId: 'philadelphia' },
-  { id: 12, date: '2026-06-14', time: '22:00', stage: 'Fase de Grupos', group: 'F', homeTeam: 'Suecia', awayTeam: 'Túnez', stadiumId: 'monterrey' },
+  { id: 9, date: '2026-06-14', time: '13:00', stage: 'Fase de Grupos', group: 'E', homeTeam: 'Alemania', awayTeam: 'Curazao', stadiumId: 'houston', result: { homeGoals: 7, awayGoals: 1 } },
+  { id: 10, date: '2026-06-14', time: '16:00', stage: 'Fase de Grupos', group: 'F', homeTeam: 'Países Bajos', awayTeam: 'Japón', stadiumId: 'dallas', result: { homeGoals: 2, awayGoals: 2 } },
+  { id: 11, date: '2026-06-14', time: '19:00', stage: 'Fase de Grupos', group: 'E', homeTeam: 'Costa de Marfil', awayTeam: 'Ecuador', stadiumId: 'philadelphia', result: { homeGoals: 1, awayGoals: 0 } },
+  { id: 12, date: '2026-06-14', time: '22:00', stage: 'Fase de Grupos', group: 'F', homeTeam: 'Suecia', awayTeam: 'Túnez', stadiumId: 'monterrey', result: { homeGoals: 5, awayGoals: 1 } },
 
-  { id: 13, date: '2026-06-15', time: '12:00', stage: 'Fase de Grupos', group: 'H', homeTeam: 'España', awayTeam: 'Cabo Verde', stadiumId: 'atlanta' },
-  { id: 14, date: '2026-06-15', time: '15:00', stage: 'Fase de Grupos', group: 'G', homeTeam: 'Bélgica', awayTeam: 'Egipto', stadiumId: 'seattle' },
-  { id: 15, date: '2026-06-15', time: '18:00', stage: 'Fase de Grupos', group: 'H', homeTeam: 'Arabia Saudí', awayTeam: 'Uruguay', stadiumId: 'miami' },
-  { id: 16, date: '2026-06-15', time: '21:00', stage: 'Fase de Grupos', group: 'G', homeTeam: 'RI de Irán', awayTeam: 'Nueva Zelanda', stadiumId: 'los_angeles' },
+  { id: 13, date: '2026-06-15', time: '12:00', stage: 'Fase de Grupos', group: 'H', homeTeam: 'España', awayTeam: 'Cabo Verde', stadiumId: 'atlanta', result: { homeGoals: 0, awayGoals: 0 } },
+  { id: 14, date: '2026-06-15', time: '15:00', stage: 'Fase de Grupos', group: 'G', homeTeam: 'Bélgica', awayTeam: 'Egipto', stadiumId: 'seattle', result: { homeGoals: 1, awayGoals: 1 } },
+  { id: 15, date: '2026-06-15', time: '18:00', stage: 'Fase de Grupos', group: 'H', homeTeam: 'Arabia Saudí', awayTeam: 'Uruguay', stadiumId: 'miami', result: { homeGoals: 1, awayGoals: 1 } },
+  { id: 16, date: '2026-06-15', time: '21:00', stage: 'Fase de Grupos', group: 'G', homeTeam: 'RI de Irán', awayTeam: 'Nueva Zelanda', stadiumId: 'los_angeles', result: { homeGoals: 2, awayGoals: 2 } },
 
   { id: 17, date: '2026-06-16', time: '15:00', stage: 'Fase de Grupos', group: 'I', homeTeam: 'Francia', awayTeam: 'Senegal', stadiumId: 'ny_nj' },
   { id: 18, date: '2026-06-16', time: '18:00', stage: 'Fase de Grupos', group: 'I', homeTeam: 'Irak', awayTeam: 'Noruega', stadiumId: 'boston' },
